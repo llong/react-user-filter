@@ -1,0 +1,16 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.user-filter {
+  width: 100%;
+  padding: 4px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #E5E5E5;
+  font-size: 16px;
+}
