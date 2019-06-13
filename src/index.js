@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import sortBy from 'lodash/sortBy';
-import App from './App';
 import './style.css';
 import Card from './components/Card';
 import EditUserForm from './components/EditUserForm';
@@ -86,7 +85,7 @@ class App extends Component {
   }
 
   render() {
-    const { users, filterText, editMode, activeUser } = this.state;
+    const { filterText, editMode, activeUser } = this.state;
     return (
       <div>
         <input 
